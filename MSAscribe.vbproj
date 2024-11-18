@@ -84,6 +84,14 @@
     </Compile>
     <Compile Include="AboutMeDetails.vb">
     </Compile>
+    <Compile Include="AboutResetPassword.Designer.vb">
+      <DependentUpon>AboutResetPassword.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AboutResetPassword.vb" />
+    <Compile Include="AddAccFAccount.Designer.vb">
+      <DependentUpon>AddAccFAccount.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AddAccFAccount.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -103,6 +111,14 @@
   <ItemGroup>
     <EmbeddedResource Include="AboutMeDetails.resx">
       <DependentUpon>AboutMeDetails.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutResetPassword.resx">
+      <DependentUpon>AboutResetPassword.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddAccFAccount.resx">
+      <DependentUpon>AddAccFAccount.vb</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
