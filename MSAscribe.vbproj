@@ -92,6 +92,10 @@
       <DependentUpon>AddAccFAccount.vb</DependentUpon>
     </Compile>
     <Compile Include="AddAccFAccount.vb" />
+    <Compile Include="AddAccFSubAccount.Designer.vb">
+      <DependentUpon>AddAccFSubAccount.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AddAccFSubAccount.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -119,6 +123,10 @@
     </EmbeddedResource>
     <EmbeddedResource Include="AddAccFAccount.resx">
       <DependentUpon>AddAccFAccount.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddAccFSubAccount.resx">
+      <DependentUpon>AddAccFSubAccount.vb</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
