@@ -96,6 +96,10 @@
       <DependentUpon>AddAccFSubAccount.vb</DependentUpon>
     </Compile>
     <Compile Include="AddAccFSubAccount.vb" />
+    <Compile Include="AddAccVoteHead.Designer.vb">
+      <DependentUpon>AddAccVoteHead.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AddAccVoteHead.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -127,6 +131,10 @@
     </EmbeddedResource>
     <EmbeddedResource Include="AddAccFSubAccount.resx">
       <DependentUpon>AddAccFSubAccount.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddAccVoteHead.resx">
+      <DependentUpon>AddAccVoteHead.vb</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
