@@ -100,6 +100,10 @@
       <DependentUpon>AddAccVoteHead.vb</DependentUpon>
     </Compile>
     <Compile Include="AddAccVoteHead.vb" />
+    <Compile Include="AddArchDiocese.Designer.vb">
+      <DependentUpon>AddArchDiocese.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AddArchDiocese.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -135,6 +139,10 @@
     </EmbeddedResource>
     <EmbeddedResource Include="AddAccVoteHead.resx">
       <DependentUpon>AddAccVoteHead.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddArchDiocese.resx">
+      <DependentUpon>AddArchDiocese.vb</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
