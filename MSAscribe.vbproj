@@ -104,6 +104,10 @@
       <DependentUpon>AddArchDiocese.vb</DependentUpon>
     </Compile>
     <Compile Include="AddArchDiocese.vb" />
+    <Compile Include="AddAssetClass.Designer.vb">
+      <DependentUpon>AddAssetClass.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AddAssetClass.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -143,6 +147,10 @@
     </EmbeddedResource>
     <EmbeddedResource Include="AddArchDiocese.resx">
       <DependentUpon>AddArchDiocese.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddAssetClass.resx">
+      <DependentUpon>AddAssetClass.vb</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
