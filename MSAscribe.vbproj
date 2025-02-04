@@ -120,6 +120,10 @@
       <DependentUpon>AddBudgAlloc.vb</DependentUpon>
     </Compile>
     <Compile Include="AddBudgAlloc.vb" />
+    <Compile Include="AddChild.Designer.vb">
+      <DependentUpon>AddChild.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AddChild.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -175,6 +179,10 @@
     </EmbeddedResource>
     <EmbeddedResource Include="AddBudgAlloc.resx">
       <DependentUpon>AddBudgAlloc.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddChild.resx">
+      <DependentUpon>AddChild.vb</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
