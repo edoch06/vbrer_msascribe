@@ -129,6 +129,10 @@
       <DependentUpon>AddContract.vb</DependentUpon>
     </Compile>
     <Compile Include="AddContract.vb" />
+    <Compile Include="AddContributon.Designer.vb">
+      <DependentUpon>AddContributon.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AddContributon.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -196,6 +200,10 @@
     </EmbeddedResource>
     <EmbeddedResource Include="AddContract.resx">
       <DependentUpon>AddContract.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddContributon.resx">
+      <DependentUpon>AddContributon.vb</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
